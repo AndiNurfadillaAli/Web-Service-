@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Perhotelan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Pembayaran"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Pembayaran">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="dataPengunjung"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="dataPengunjung">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nokmr" minOccurs="1"/>
+                <xs:element ref="Jeniskmr"/>
+                <xs:element ref="tarif"/>
+                <xs:element ref="Nama"/>
+                <xs:element ref="cekIN"/>
+                <xs:element ref="cekOut"/>
+            </xs:sequence>
+            <xs:attribute name="status" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nokmr" type="xs:integer"/>
+    <xs:element name="Jeniskmr" type="xs:NCName"/>
+    <xs:element name="tarif" type="xs:NCName"/>
+    <xs:element name="Nama" type="xs:NCName"/>
+    <xs:element name="cekIN" type="xs:NMTOKEN"/>
+    <xs:element name="cekOut" type="xs:NMTOKEN"/>
+</xs:schema>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Perhotelan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="perhotelan.xsd">
+	<Pembayaran>
+		<dataPengunjung status="terisi">
+			<nokmr>011</nokmr>
+			<Jeniskmr>vip</Jeniskmr>
+			<tarif>Rp.550000</tarif>
+			<Nama>dilla</Nama>
+			<cekIN>01-04-2017</cekIN>
+			<cekOut>02-04-02017</cekOut>
+		</dataPengunjung>
+		<dataPengunjung status="terisi">
+			<nokmr>012</nokmr>
+			<Jeniskmr>vip</Jeniskmr>
+			<tarif>Rp.300000</tarif>
+			<Nama>widya</Nama>
+			<cekIN>01-04-2017</cekIN>
+			<cekOut>02-04-2017</cekOut>
+		</dataPengunjung>
+		<dataPengunjung status="terisi">
+			<nokmr>013</nokmr>
+			<Jeniskmr>vip</Jeniskmr>
+			<tarif>Rp.450000</tarif>
+			<Nama>wahid</Nama>
+			<cekIN>01-04-2017</cekIN>
+			<cekOut>02-04-2017</cekOut>
+		</dataPengunjung>
+		<dataPengunjung status="terisi">
+			<nokmr>014</nokmr>
+			<Jeniskmr>vip</Jeniskmr>
+			<tarif>Rp.400000</tarif>
+			<Nama>jalal</Nama>
+			<cekIN>01-04-2017</cekIN>
+			<cekOut>02-04-2017</cekOut>
+		</dataPengunjung>
+		<dataPengunjung status="terisi">
+			<nokmr>015</nokmr>
+			<Jeniskmr>vip</Jeniskmr>
+			<tarif>Rp.500000</tarif>
+			<Nama>jaya</Nama>
+			<cekIN>01-04-2017</cekIN>
+			<cekOut>02-04-2017</cekOut>
+		</dataPengunjung>
+	</Pembayaran>
+</Perhotelan>
